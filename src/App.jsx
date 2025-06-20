@@ -6,11 +6,15 @@ import "bootstrap/dist/css/bootstrap.min.css"
 export default function App(){
   return (
     <main className='container py-3'>
-      <AddMovieForm/><hr />
-
-      <Movies />
-
-      <MoviesByTitle title="Dilwale Dulhania Le Jayenge"/>
+      <div className='row'>
+      <div className="col-12 col-md-10 col-lg-8 mx-auto">
+          <AddMovieForm/><hr />
+    
+          <Movies />
+    
+          <MoviesByTitle title="Dilwale Dulhania Le Jayenge"/>
+        </div>
+        </div>
     </main>
   ) 
 }
