@@ -10,7 +10,7 @@ const AddMovieForm =()=>{
     const [formData, setFormData] = useState({
         title: "",
         releaseYear: "",
-        genre: "",
+        genre: "Drama",
         director: "",
         actors: "",
         language: "",
@@ -77,7 +77,7 @@ const AddMovieForm =()=>{
                 <br />
 
                 <label className="fs-4" style={{fontFamily:"-moz-initial"}}>Genre: </label><br />
-                <input type="text" name="genre" className="form-control" placeholder="Drama, Romance, Autobiography, Thriller, etc.."
+                <input type="text" name="genre" className="form-control"
                 value={formData.genre} onChange={handlerChange} />
                 <br />
 
