@@ -77,7 +77,7 @@ const AddMovieForm =()=>{
                 <br />
 
                 <label className="fs-4" style={{fontFamily:"-moz-initial"}}>Genre: </label><br />
-                <input type="text" name="genre" className="form-control"
+                <input type="text" name="genre" className="form-control" placeholder="Drama, Romance, Autobiography, Thriller, etc.."
                 value={formData.genre} onChange={handlerChange} />
                 <br />
 
@@ -102,7 +102,7 @@ const AddMovieForm =()=>{
                 <br />
 
                 <label className="fs-4" style={{fontFamily:"-moz-initial"}}>Rating: </label><br />
-                <input type="number" name="rating" className="form-control"
+                <input type="number" name="rating" className="form-control" placeholder="Rate between 1 to 5..."
                 value={formData.rating} onChange={handlerChange} />
                 <br />
 
